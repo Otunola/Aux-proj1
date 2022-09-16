@@ -121,8 +121,22 @@ sudo passwd -x 5 $user
 As seen above only super ussrs can run the script we enter the super user mode with command : sudo su
 
 # Run the script as a super user
+
 : ./onboard.sh
+
 <img width="574" alt="Screen Shot 2022-09-13 at 10 31 23 AM" src="https://user-images.githubusercontent.com/112595648/190623447-4375e5ce-c22a-444c-8dc0-8510825fd119.png">
+as seen above the users were created succesfully
 
+<img width="648" alt="Screen Shot 2022-09-16 at 11 55 46 AM" src="https://user-images.githubusercontent.com/112595648/190623906-252bdcd1-cb73-4c3d-9591-b79ed8d5974b.png">
 
+# Now we attept to connect to the server as one of the users created
 
+To do this we create the .pem key witht he private key given and we access the server with it.
+:vi aux-proj.pem
+the we paste the private key intp it and save
+
+# now with atttmpt to login with the command below
+: ssh -i aux-proj.pem jude@52.50.168.27
+jude is a user created and the follwing ip addres is the public address for the server. the output is below
+
+<img width="565" alt="Screen Shot 2022-09-16 at 12 37 39 PM" src="https://user-images.githubusercontent.com/112595648/190630512-2cd464ab-dda7-4a07-a86d-cbed89b6b5a1.png">
