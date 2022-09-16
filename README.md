@@ -1,3 +1,4 @@
+<img width="574" alt="Screen Shot 2022-09-13 at 10 31 23 AM" src="https://user-images.githubusercontent.com/112595648/190623377-84e98859-3d16-4b50-9682-90f7488aed2d.png">
 # Aux-proj1 SHELL SCRIPTING (you need to onboard 20 new Linux users onto a server. Create a shell script that reads a csv file that contains the first name of the users to be onboarded)
 In this project we shall use a shell scrip to do this jot at once instead of onboarding 20 users one at a time which could be too much of a job, imagin having to onbard more than 200 users. so we use shell scrip for such tasks.
 # The first thing to do is create a folder called shell with the command and cd into it : 
@@ -121,5 +122,7 @@ As seen above only super ussrs can run the script we enter the super user mode w
 
 # Run the script as a super user
 : ./onboard.sh
+<img width="574" alt="Screen Shot 2022-09-13 at 10 31 23 AM" src="https://user-images.githubusercontent.com/112595648/190623447-4375e5ce-c22a-444c-8dc0-8510825fd119.png">
+
 
 
