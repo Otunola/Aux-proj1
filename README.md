@@ -140,3 +140,15 @@ the we paste the private key intp it and save
 jude is a user created and the follwing ip addres is the public address for the server. the output is below
 
 <img width="565" alt="Screen Shot 2022-09-16 at 12 37 39 PM" src="https://user-images.githubusercontent.com/112595648/190630512-2cd464ab-dda7-4a07-a86d-cbed89b6b5a1.png">
+from above we can see that our pem key is not well protected. the command below also confims that
+: ls -l | grep aux-proj.pem
+<img width="544" alt="Screen Shot 2022-09-16 at 12 49 37 PM" src="https://user-images.githubusercontent.com/112595648/190632521-67e58082-a34b-4776-9ee2-2f993678a6e8.png">
+
+# we protect the pem key with the command
+:sudo chmod 600 aux-proj.pem
+
+then connect again with the command
+: ** ssh -i aux-proj.pem jude@52.50.168.27**
+
+# im now connected as a user as shown
+<img width="568" alt="Screen Shot 2022-09-16 at 12 53 00 PM" src="https://user-images.githubusercontent.com/112595648/190633117-4aba25df-d6b3-40c8-b1a0-5b6ef2d4a20c.png">
