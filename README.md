@@ -112,3 +112,14 @@ sudo passwd -x 5 $user
     else
     echo "Only Admin Can Onboard A User"
     fi
+# Change the mode of the script to make it executable
+: sudo chmod +x onboard.sh
+
+<img width="1027" alt="Screen Shot 2022-09-13 at 10 29 34 AM" src="https://user-images.githubusercontent.com/112595648/190622627-cb0f5bdd-94bb-4169-bce8-5d40d05f4d90.png">
+# Note 
+As seen above only super ussrs can run the script we enter the super user mode with command : sudo su
+
+# Run the script as a super user
+: ./onboard.sh
+
+
